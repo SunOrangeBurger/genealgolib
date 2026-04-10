@@ -1,0 +1,14 @@
+[package]
+name = "GeneAlgoLib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "fast_ga"
+crate-type = ["cdylib"]
+
+[dependencies]
+# Both pyo3 and numpy MUST be on the 0.21 version branch
+pyo3 = { version = "0.21.0", features = ["extension-module"] }
+numpy = "0.21.0"
+rand = "0.8.5"
