@@ -9,6 +9,6 @@ crate-type = ["cdylib"]
 
 [dependencies]
 # Both pyo3 and numpy MUST be on compatible version branches
-pyo3 = { version = "0.22", features = ["extension-module"] }
+pyo3 = { version = "0.22", features = ["extension-module", "generate-import-lib"] }
 numpy = "0.22"
 rand = "0.8.5"
