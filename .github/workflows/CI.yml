@@ -64,7 +64,7 @@ jobs:
           path: dist
 
   macos:
-    runs-on: macos-13
+    runs-on: macos-latest
     continue-on-error: false
     strategy:
       fail-fast: false

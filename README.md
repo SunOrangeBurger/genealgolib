@@ -12,7 +12,28 @@ A blazingly fast genetic algorithm library implemented in Rust with Python bindi
 
 ## Installation
 
+### Linux & Windows
+
 ```bash
+pip install genealgolib
+```
+
+### macOS
+
+Pre-built wheels for macOS are currently unavailable. You'll need to install Rust and build from source:
+
+```bash
+# Install Rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Install the package (will compile from source)
+pip install genealgolib
+```
+
+Alternatively, if you have Homebrew:
+
+```bash
+brew install rust
 pip install genealgolib
 ```
 
