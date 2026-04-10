@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Arun Hariharan", email = "r.arunhariharan@gmail.com"}
 ]
 keywords = ["genetic-algorithm", "optimization", "rust", "performance"]
 classifiers = [
@@ -30,9 +30,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/GeneAlgoLib"
-Repository = "https://github.com/yourusername/GeneAlgoLib"
-Issues = "https://github.com/yourusername/GeneAlgoLib/issues"
+Homepage = "https://github.com/SunOrangeBurger/genealgolib"
+Repository = "https://github.com/SunOrangeBurger/genealgolib"
+Issues = "https://github.com/SunOrangeBurger/genealgolib/issues"
 
 [project.optional-dependencies]
 dev = ["numpy", "pytest"]
