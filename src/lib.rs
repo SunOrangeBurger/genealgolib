@@ -26,7 +26,7 @@ impl GeneticAlgorithm {
 
     fn get_population<'py>(&self, py: Python<'py>) -> Py<PyArray2<f64>> {
         // Create a 1D array, reshape it to 2D, and return it to Python
-        let array = PyArray1::from_vec(py, self.population.clone());
+        let array = PyArray1::from_vec_bound(py, self.population.clone());
         let array2d = array.reshape([self.pop_size, self.num_genes]).unwrap();
         array2d.into()
     }
