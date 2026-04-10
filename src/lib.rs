@@ -1,6 +1,6 @@
 use pyo3::prelude::*;
-use numpy::{PyArray1, PyArray2, PyReadonlyArray1}; // FIXED: Changed rust_numpy to numpy
-use rand::Rng; // FIXED: Removed unused SliceRandom
+use numpy::{PyArray1, PyArray2, PyReadonlyArray1, PyArrayMethods};
+use rand::Rng;
 
 #[pyclass]
 pub struct GeneticAlgorithm {
