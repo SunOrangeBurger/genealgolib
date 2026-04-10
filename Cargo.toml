@@ -8,7 +8,7 @@ name = "fast_ga"
 crate-type = ["cdylib"]
 
 [dependencies]
-# Both pyo3 and numpy MUST be on the 0.21 version branch
-pyo3 = { version = "0.21.0", features = ["extension-module"] }
-numpy = "0.21.0"
+# Both pyo3 and numpy MUST be on compatible version branches
+pyo3 = { version = "0.22", features = ["extension-module"] }
+numpy = "0.22"
 rand = "0.8.5"
